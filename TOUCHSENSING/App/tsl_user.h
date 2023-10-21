@@ -69,7 +69,8 @@ typedef enum
 /* 4CH_LIN_H_NBR1 bank definition*/
 #define BANK_0_NBCHANNELS (1)
 #define BANK_1_NBCHANNELS (1)
-#define BANK_2_NBCHANNELS (2)
+#define BANK_2_NBCHANNELS (1)
+#define BANK_3_NBCHANNELS (1)
 
 /* User Parameters */
 extern CONST TSL_Bank_T MyBanks[];

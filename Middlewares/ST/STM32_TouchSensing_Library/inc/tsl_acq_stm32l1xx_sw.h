@@ -82,7 +82,7 @@ enum
   PA3  = 0x03,
   PA6  = 0x06, /**< TSL_GROUP2_IO1 */
   PA7  = 0x07,
-  PA8  = 0x08,
+  PA8  = 0x08, /**< TSL_GROUP4_IO1 */
   PA9  = 0x09,
   PA10 = 0x0A,
   PA13 = 0x0D, /**< TSL_GROUP5_IO1 */
@@ -138,7 +138,7 @@ enum
   TSL_GROUP1_IO4  = 0x03,
   TSL_GROUP2_IO1  = 0x06, /**< PA6 */
   TSL_GROUP2_IO2  = 0x07,
-  TSL_GROUP4_IO1  = 0x08,
+  TSL_GROUP4_IO1  = 0x08, /**< PA8 */
   TSL_GROUP4_IO2  = 0x09,
   TSL_GROUP4_IO3  = 0x0A,
   TSL_GROUP5_IO1  = 0x0D, /**< PA13 */

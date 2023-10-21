@@ -42,7 +42,7 @@
 /** Total number of banks in application (range=1..255)
 */
 
-#define TSLPRM_TOTAL_BANKS (3)
+#define TSLPRM_TOTAL_BANKS (4)
 
 /** Total number of "Extended" TouchKeys in application (range=0..255)
 */
@@ -481,7 +481,7 @@ be configured to output push-pull low (excepted for Linear sensors).
     - 1: IO protected
 @note for SW acquisition only
 */
-#define TSLPRM_PROTECT_IO_ACCESS (0)
+#define TSLPRM_PROTECT_IO_ACCESS (1)
 
 /** Which GPIO will be used (range=0..1)
     - 0: Not used
