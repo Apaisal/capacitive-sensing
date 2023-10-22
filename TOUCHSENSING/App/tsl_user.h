@@ -49,10 +49,10 @@ typedef enum
 } tsl_user_status_t;
 
 /* Channel IOs definition */
-#define CHANNEL_0_SRC       ((uint32_t) (GR7))
+#define CHANNEL_0_SRC       ((uint32_t) (GR1))
 #define CHANNEL_0_DEST      (0)
-#define CHANNEL_0_SAMPLE    (TSL_GROUP7_IO1)
-#define CHANNEL_0_CHANNEL   (TSL_GROUP7_IO2)
+#define CHANNEL_0_SAMPLE    (TSL_GROUP1_IO1)
+#define CHANNEL_0_CHANNEL   (TSL_GROUP1_IO2)
 #define CHANNEL_1_SRC       ((uint32_t) (GR7))
 #define CHANNEL_1_DEST      (1)
 #define CHANNEL_1_SAMPLE    (TSL_GROUP7_IO1)
@@ -61,10 +61,10 @@ typedef enum
 #define CHANNEL_2_DEST      (2)
 #define CHANNEL_2_SAMPLE    (TSL_GROUP7_IO1)
 #define CHANNEL_2_CHANNEL   (TSL_GROUP7_IO4)
-#define CHANNEL_3_SRC       ((uint32_t) (GR4))
+#define CHANNEL_3_SRC       ((uint32_t) (GR1))
 #define CHANNEL_3_DEST      (3)
-#define CHANNEL_3_SAMPLE    (TSL_GROUP4_IO1)
-#define CHANNEL_3_CHANNEL   (TSL_GROUP4_IO2)
+#define CHANNEL_3_SAMPLE    (TSL_GROUP1_IO1)
+#define CHANNEL_3_CHANNEL   (TSL_GROUP1_IO4)
 /* Bank(s) definition */
 /* 4CH_LIN_H_NBR1 bank definition*/
 #define BANK_0_NBCHANNELS (1)

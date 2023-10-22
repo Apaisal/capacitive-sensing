@@ -59,20 +59,24 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SLIDE_SAMPLING_G7_Pin GPIO_PIN_12
 #define SLIDE_SAMPLING_G7_GPIO_Port GPIOB
-#define SLIDE_END_Pin GPIO_PIN_13
-#define SLIDE_END_GPIO_Port GPIOB
+//#define SLIDE_END_Pin GPIO_PIN_13
+//#define SLIDE_END_GPIO_Port GPIOB
 #define SLIDE_5_Pin GPIO_PIN_14
 #define SLIDE_5_GPIO_Port GPIOB
 #define SLIDE_10_Pin GPIO_PIN_15
 #define SLIDE_10_GPIO_Port GPIOB
-#define SLIDE_SAMPLING_G4_Pin GPIO_PIN_8
-#define SLIDE_SAMPLING_G4_GPIO_Port GPIOA
-#define SLIDE_20_Pin GPIO_PIN_9
+#define SLIDE_SAMPLING_G1_Pin GPIO_PIN_0
+#define SLIDE_SAMPLING_G1_GPIO_Port GPIOA
+#define SLIDE_20_Pin GPIO_PIN_1
 #define SLIDE_20_GPIO_Port GPIOA
+#define SLIDE_END_Pin GPIO_PIN_3
+#define SLIDE_END_GPIO_Port GPIOA
 #define LED_BLUE_Pin GPIO_PIN_15
 #define LED_BLUE_GPIO_Port GPIOA
-#define LED_GREEN_Pin GPIO_PIN_7
-#define LED_GREEN_GPIO_Port GPIOB
+#define LED_GREEN_Pin GPIO_PIN_8
+#define LED_GREEN_GPIO_Port GPIOA
+#define LED_RED_Pin GPIO_PIN_7
+#define LED_RED_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
